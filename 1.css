@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "myFirstFont";
+    src: url("https://www.nagnu.co.il/lib/font-awesome/webfonts/fa-regular-400.woff2");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* float: right; */
+    font-family: "myFirstFont", serif;
+    /* direction: rtl; */
+}
+
+
+pre {
+    line-height: 14px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.title_Chordastic {
+    width: 98%;
+    text-align: center;
+    color: #003366;
+    font-size: 36;
+}
+
+.info_Chordastic {
+    color: #003366;
+    font-size: 12;
+}
+
+.note_chordastic {
+    color: #1f61ff;
+    font-weight: bold;
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    background-color: #1f61ff;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 15px;
+    transition: background-color 300ms ease;
+    display: inline-flex;
+    gap: 7px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
